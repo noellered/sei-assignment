@@ -65,7 +65,6 @@
     color: #212B36;
     cursor: pointer;
     padding: 0 2rem;
-    margin-top:1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,6 +78,7 @@
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
     font-size: 1.7rem;
+    
     text-align: left;
     }
 
