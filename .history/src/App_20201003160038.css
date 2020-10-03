@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+
+.App{
+  background-color: #F4F5FA;
+}
+
+.card{
+  max-width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin: auto;
+  margin-bottom: 1rem;
+  background-color: white;
+  text-align: center;
+}
+
+.aboutme{
+  margin-top: -2rem;
+}
+
+.contact-container{
+  padding: 2rem;
+  line-height: 2.5rem;
+}
+
+.contact-info{
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-img{
+  min-width: 70%;
+  margin-top: 1rem;
+}
+
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #212B36;
+  font-size: 1.37rem;
+  margin: 0 2rem;
+}
+
+.subheader{
+  color: #B3BCF5;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.icon-container{
+  display: flex;
+  width: 90%;
+  margin: 0 auto; 
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: .5rem;
+  padding-bottom: 2rem;
+}
+
+.technical-tools{
+  width: 60%;
+}
+
+.icon{
+  min-width: 2.82rem;
+  max-width: 3.4rem;
+  margin: .8rem;
+}
+
+.icon-small{
+  min-width: 1.9rem;
+  max-width: 3rem;
+}
+
+
+.jumbo {
+  background-image: url("./assets/header-background-02.png");
+  background-size: contain;
+  min-height: fit-content;
+  padding: 1rem;
+}
+
+.jumbo-text{
+  color: white;
+  font-weight: 900;
+  font-size: 2.3rem;
+  margin-top: -1rem;
+  line-height: 2.2rem;
+  margin-bottom: .75rem;
+}
+
+.header-text-container{
+  margin: 10%;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-bottom: 1rem;
+}
+
+h1{
+  color: #5C6AC4;
+  font-weight: 700;
+  font-size: 1.87rem;
+  margin-bottom: .75rem;
+}
+
+h2{
+  color: #6EFFF4;
+  font-weight: 600;
+  font-size: 1.56rem;
+}
+
+h3{
+  color: #6EFFF4;
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.footer-container{
+  background-color: #282c34;
+  min-height: 20vh;
+  text-align: center;
+}
+
+.footer-text{
+  color: white;
+  padding-top: 5rem;
+  line-height: 2.5rem;
+}
+
+.hobbies-container{
+  margin: auto;
+  max-width: 80%;
+}
+
+.illo{
+  max-width: 90%;
+  margin: auto;
+}
+
+.mini-cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: fit-content;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+
+@media screen and (min-width: 1920px){
+  .header-text-container{
+    margin: 0 auto;
+    padding: 15rem 30rem;
+    min-height: 30vh;
+  }
+
+  h2{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  h3{
+    font-size: 2.5rem;
+    padding-top: 2.5rem;
+  }
+
+
+  .jumbo-text{
+    font-size: 6.6rem;
+    margin-left: -5px;
+  }
+  
+  .card{
+    max-width: 1572px;
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+  }
+
+  .aboutme{
+    margin-top: -4rem;
+  }
+
+  .headshot{
+    min-width: 50rem;
+    order: 1;
+    margin-left: -150px;
+    margin-top: -40px;
+  }
+
+  .bio{
+    text-align: justify;
+    min-width: 60%;
+    order: 0;
+    overflow: visible;
+    margin-left: 3.4rem;
+  }
+
+  .icon-container{
+    display: inline-flex;
+    max-width: fit-content;
+    align-items: center;
+  }
+
+  p{
+    margin: auto;
+    font-size: 1.9rem;
+    line-height: 1.5;
+  }
+
+  .technical-tools{
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .contact-container{
+    margin: auto;
+    padding-top: 0;
+  }
+
+  .contact{
+    margin-bottom: 5rem;
+  }
+
+  .contact-info{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  .icon-small{
+    padding-right: 1rem;
+  }
+
+  .contact-text{
+    padding-right: 4rem;
+  }
+
+  .illo{
+    display: inline;
+    order: 1;
+  }
+
+  .hobby{
+    padding: 2rem;
+    min-width: 40rem;
+  }
+
+  .hobby-section{
+    display: block;
+    margin: auto;
+    max-width: 1700px;
+    padding: 5rem 0 10rem 0;
+  }
+
+  .large-text{
+    font-size: 3rem;
+    font-weight: 900;
+  }
+
+  .hobbies-container{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 1rem 4rem 1rem 4rem;
+  }
+
+  .mini-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-height: fit-content;
+    min-width: 600px;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+
+  ::-webkit-scrollbar{
+    display:none;
+  }
+
+  
+}
+
+@media screen and (max-width: 1280px){
+  .card{
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  p{
+    font-size: 1.3rem;
+  }
+  .contact-container{
+    padding: 1rem 0;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

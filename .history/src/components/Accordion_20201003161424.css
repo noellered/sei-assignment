@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+
+
+.accordion {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: white;
+    margin-bottom: 0;
+    max-width: 90%;
+    color: #444;
+    cursor: pointer;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    transition: background-color 0.6s ease;
+    }
+    .accordion-title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+    text-align: left;
+    }
+    
+
+    /* Style the accordion chevron icon */
+    .accordion-icon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+    }
+    
+    /* Rotate icon when state is active */
+    .rotate {
+    transform: rotate(90deg);
+    }
+
+    /* Accordion content panel. Hidden by default */
+    .accordion-content {
+    background-color: white;
+    margin-top: 0;
+    padding-left: 1rem;
+    overflow: auto;
+    transition: max-height 0.6s ease;
+    }
+
+    /* Accordion content text */
+    .accordion-text {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: auto;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 18px;
+    }
+
+@media screen and (min-width: 1920px){
+    /* Style the buttons that are used to open and close the accordion panel */
+    .accordion {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: white;
+    margin-bottom: 0;
+    min-width: 30rem;
+    color: #212B36;
+    cursor: pointer;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    transition: background-color 0.6s ease;
+    }
+
+    /* Style the accordion content title */
+    .accordion-title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+    text-align: left;
+    }
+
+
+    /* Style the accordion chevron icon */
+    .accordion-icon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+    }
+
+    /* Rotate icon when state is active */
+    .rotate {
+    transform: rotate(90deg);
+    }
+
+    /* Accordion content panel. Hidden by default */
+    .accordion-content {
+    background-color: white;
+    padding-left: 2rem;
+    overflow: auto;
+    transition: max-height 0.6s ease;
+    }
+
+    /* Accordion content text */
+    .accordion-text {
+    font-family: "Source Sans Pro", sans-serif;
+    
+    margin: auto;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 18px;
+    }
+}
