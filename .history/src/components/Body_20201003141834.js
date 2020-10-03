@@ -63,7 +63,7 @@ const Contact = () => {
 
     return(
         <>
-            <div className="card contact">
+            <div className="card">
                 <div className="contact-container">
                 <h1>Get in touch!</h1>
                 <div className="contact-info">
@@ -122,7 +122,6 @@ class Body extends Component {
                 </div>
                 <AboutMe/>
                 <Hobbies/>
-                <Contact/>
             </>
         )
     }

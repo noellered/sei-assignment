@@ -63,7 +63,7 @@ const Contact = () => {
 
     return(
         <>
-            <div className="card contact">
+            <div className="card">
                 <div className="contact-container">
                 <h1>Get in touch!</h1>
                 <div className="contact-info">
@@ -86,7 +86,7 @@ const Hobbies = () => {
     return(
         <>
             <div className="hobby-section">
-                <h1 className="large-text">Hobbies:</h1>
+                
                 <div className="hobbies-container">
                     <img src={illo} className="illo" alt="illustration"/>
                     <div className="mini-cards">
@@ -121,8 +121,8 @@ class Body extends Component {
                     </div>
                 </div>
                 <AboutMe/>
-                <Hobbies/>
                 <Contact/>
+                <Hobbies/>
             </>
         )
     }

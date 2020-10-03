@@ -63,7 +63,7 @@ const Contact = () => {
 
     return(
         <>
-            <div className="card contact">
+            <div className="card">
                 <div className="contact-container">
                 <h1>Get in touch!</h1>
                 <div className="contact-info">
@@ -85,24 +85,10 @@ const Contact = () => {
 const Hobbies = () => {
     return(
         <>
-            <div className="hobby-section">
-                <h1 className="large-text">Hobbies:</h1>
-                <div className="hobbies-container">
-                    <img src={illo} className="illo" alt="illustration"/>
-                    <div className="mini-cards">
-                        <div className="card hobby">
-                            <h1>Traveling</h1>
-                        </div>
-                        <div className="card hobby">
-                            <h1>Hiking</h1>
-                        </div>
-                        <div className="card hobby">
-                            <h1>Volunteering</h1>
-                        </div>
-                        <div className="card hobby">
-                            <h1>Designing</h1>
-                        </div>
-                    </div>
+            <div>
+                <img src={illo} className="illo" alt="illustration"/>
+                <div className="card hobby">
+                    <
                 </div>
             </div>
         </>
@@ -121,8 +107,8 @@ class Body extends Component {
                     </div>
                 </div>
                 <AboutMe/>
-                <Hobbies/>
                 <Contact/>
+                <Hobbies/>
             </>
         )
     }

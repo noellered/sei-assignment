@@ -207,6 +207,7 @@ h3{
 
   .contact{
     margin-bottom: 5rem;
+    max-height: 100px;
   }
 
   .contact-info{

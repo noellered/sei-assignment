@@ -205,10 +205,6 @@ h3{
     padding-top: 0;
   }
 
-  .contact{
-    margin-bottom: 5rem;
-  }
-
   .contact-info{
     display: flex;
     flex-direction: row;
@@ -238,7 +234,8 @@ h3{
     display: block;
     margin: auto;
     max-width: 1700px;
-    padding: 5rem 0 10rem 0;
+    padding: 1rem;
+    padding-bottom: 5rem;
   }
 
   .large-text{
@@ -250,7 +247,8 @@ h3{
     display: flex;
     margin: auto;
     justify-content: space-between;
-    padding: 1rem 4rem 1rem 4rem;
+    padding-top: 1rem;
+    padding-left: ;
   }
 
   .mini-cards{

@@ -63,7 +63,7 @@ const Contact = () => {
 
     return(
         <>
-            <div className="card contact">
+            <div className="card">
                 <div className="contact-container">
                 <h1>Get in touch!</h1>
                 <div className="contact-info">
@@ -85,23 +85,21 @@ const Contact = () => {
 const Hobbies = () => {
     return(
         <>
-            <div className="hobby-section">
-                <h1 className="large-text">Hobbies:</h1>
-                <div className="hobbies-container">
+            <div className="hobbies-container">
+                <h1>Hobbies</h1>
+                <div className=>
                     <img src={illo} className="illo" alt="illustration"/>
-                    <div className="mini-cards">
-                        <div className="card hobby">
-                            <h1>Traveling</h1>
-                        </div>
-                        <div className="card hobby">
-                            <h1>Hiking</h1>
-                        </div>
-                        <div className="card hobby">
-                            <h1>Volunteering</h1>
-                        </div>
-                        <div className="card hobby">
-                            <h1>Designing</h1>
-                        </div>
+                    <div className="card hobby">
+                        <h1>Travel</h1>
+                    </div>
+                    <div className="card hobby">
+                        <h1>Hike</h1>
+                    </div>
+                    <div className="card hobby">
+                        <h1>Volunteer</h1>
+                    </div>
+                    <div className="card hobby">
+                        <h1>Design</h1>
                     </div>
                 </div>
             </div>
@@ -121,8 +119,8 @@ class Body extends Component {
                     </div>
                 </div>
                 <AboutMe/>
-                <Hobbies/>
                 <Contact/>
+                <Hobbies/>
             </>
         )
     }

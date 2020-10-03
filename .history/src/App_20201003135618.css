@@ -128,9 +128,13 @@ h3{
   line-height: 2.5rem;
 }
 
-
-.hobby-section{
+.illo{
   display: none;
+}
+
+.hobby{
+  margin: auto;
+  padding-top: 1rem;
 }
 
 
@@ -205,10 +209,6 @@ h3{
     padding-top: 0;
   }
 
-  .contact{
-    margin-bottom: 5rem;
-  }
-
   .contact-info{
     display: flex;
     flex-direction: row;
@@ -226,37 +226,10 @@ h3{
 
   .illo{
     display: inline;
-    order: 1;
   }
 
   .hobby{
     padding: 2rem;
-    min-width: 40rem;
-  }
-
-  .hobby-section{
-    display: block;
-    margin: auto;
-    max-width: 1700px;
-    padding: 5rem 0 10rem 0;
-  }
-
-  .large-text{
-    font-size: 3rem;
-    font-weight: 900;
-  }
-
-  .hobbies-container{
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    padding: 1rem 4rem 1rem 4rem;
-  }
-
-  .mini-cards{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
   }
 }
 
