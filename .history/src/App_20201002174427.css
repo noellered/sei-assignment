@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+
+.App{
+  background-color: #F4F5FA;
+}
+
+.card{
+  max-width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin: auto;
+  margin-top: -2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.card-img{
+  min-width: 70%;
+  margin-top: 1rem;
+}
+
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #212B36;
+  font-size: 1.37rem;
+  margin: 0 2rem;
+}
+
+.lead{
+
+}
+
+.jumbo {
+  background-image: url("./assets/header-background.png");
+  background-size: cover;
+  min-height: fit-content;
+  padding: 1rem;
+}
+
+.jumbo-text{
+  color: white;
+  font-weight: 900;
+  font-size: 2.3rem;
+}
+
+.header-text-container{
+  margin: 10%;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+  color: #5C6AC4;
+  font-weight: 700;
+  font-size: 1.87rem;
+  margin-bottom: .75rem;
+}
+
+h2{
+  color: #6EFFF4;
+  font-weight: 600;
+}
+
+h3{
+  color: #6EFFF4;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
