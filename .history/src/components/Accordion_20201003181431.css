@@ -61,13 +61,13 @@
     font-family: "Source Sans Pro", sans-serif;
     background-color: white;
     margin-bottom: 0;
-    min-width: 100%;
+    min-width: 30rem;
     color: #212B36;
     cursor: pointer;
     padding: 0 2rem;
     margin-top: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     border: none;
     outline: none;

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import headshot from '../assets/headshot_sm.png';
+import headshot from '../assets/headshot.png';
 import react from '../assets/react.svg';
 import html from '../assets/html.svg';
 import photoshop from '../assets/photoshop.svg';
@@ -14,10 +14,14 @@ import emailicon from '../assets/email.svg';
 import githubicon from '../assets/github.svg';
 import illo from '../assets/vision.svg';
 import Accordion from './Accordion';
+import tokyo from '../assets/tokyo_street.jpg';
+import design from '../assets/roadtrip-illo-01.svg';
+import volunteer from '../assets/PodcastCover.png';
+import hiking from '../assets/noelle-backpacking2.jpg';
 
 
 const AboutMe = () => {
-    let bio = "I’m a self-taught graphic designer & web developer from Sacramento, CA. I found my passion for Computer Science, and that passion has only grown stronger over time. I am transitioning into a Software Engineering career because I am powered by problem-solving and love bringing code to life."
+    let bio = "I’m a self-taught graphic designer & web developer from Sacramento, CA. My creativity is fueled by coffee and good conversations. I realized my passion for Computer Science and am now transitioning to field because I am powered by problem-solving and I love bringing code to life."
     return(
         <>
             <div className="card aboutme">

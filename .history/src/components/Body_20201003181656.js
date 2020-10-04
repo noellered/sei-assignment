@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import headshot from '../assets/headshot_sm.png';
+import headshot from '../assets/headshot.png';
 import react from '../assets/react.svg';
 import html from '../assets/html.svg';
 import photoshop from '../assets/photoshop.svg';
@@ -17,7 +17,7 @@ import Accordion from './Accordion';
 
 
 const AboutMe = () => {
-    let bio = "I’m a self-taught graphic designer & web developer from Sacramento, CA. I found my passion for Computer Science, and that passion has only grown stronger over time. I am transitioning into a Software Engineering career because I am powered by problem-solving and love bringing code to life."
+    let bio = "I’m a self-taught graphic designer & web developer from Sacramento, CA. I found my passion for Computer Science, and that passion has only grown stronger over time. I am transitioning into a Software Engineering career because I am powered by problem-solving and I love bringing code to life."
     return(
         <>
             <div className="card aboutme">

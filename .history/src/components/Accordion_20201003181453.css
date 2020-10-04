@@ -61,7 +61,7 @@
     font-family: "Source Sans Pro", sans-serif;
     background-color: white;
     margin-bottom: 0;
-    min-width: 100%;
+    min-width: 3em;
     color: #212B36;
     cursor: pointer;
     padding: 0 2rem;
