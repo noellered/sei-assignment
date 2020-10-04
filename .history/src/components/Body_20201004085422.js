@@ -89,9 +89,9 @@ const Hobbies = () => {
             <div className="hobby-section">
                 
                 <div className="hobbies-container">
+                <h1 className="large-text">Hobbies:</h1>
                     <img src={illo} className="illo" alt="illustration"/>
                     <div className="mini-cards">
-                    <h1 className="large-text">Hobbies:</h1>
                         <div className="card hobby">
                             <h1>Traveling</h1>
                         </div>

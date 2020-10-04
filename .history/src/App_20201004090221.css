@@ -306,45 +306,38 @@ h3{
   .card{
     max-width: 80%;
   }
+  .header-text-container{
+    margin: 0 auto;
+    padding: 15rem 30rem;
+    min-height: 30vh;
+  }
+
+  h2{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  h3{
+    font-size: 2.5rem;
+    padding-top: 2.5rem;
+  }
+
+
+  .jumbo-text{
+    font-size: 6.6rem;
+    margin-left: -5px;
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1920px){
+@media screen and (min-width: 768px) and (max-width: 1800px){
   .large-text{
     margin: auto;
     padding-bottom: 2rem;
     text-align: justify;
     max-width: 80%;
   }
-  
-  .header-text-container{
-    margin-left: auto;
-    padding: 5rem 7rem;
-    min-height: 15vh;
-  }
-
-  h2{
-    font-size: 2rem;
-    padding-bottom: .5rem;
-  }
-
-  h3{
-    font-size: 2rem;
-    padding-top: 1rem;
-  }
-
-
-  .jumbo-text{
-    font-size: 3rem;
-    margin-left: -5px;
-  }
 }
 
-@media screen and (max-width: 1920px){
-  .headshot{
-    max-width: 40rem;
-    margin: auto;
-  }
-}
 
 
 @media screen and (max-width: 320px){

@@ -308,7 +308,7 @@ h3{
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1920px){
+@media screen and (min-width: 768px) and (max-width: 1800px){
   .large-text{
     margin: auto;
     padding-bottom: 2rem;
@@ -339,12 +339,7 @@ h3{
   }
 }
 
-@media screen and (max-width: 1920px){
-  .headshot{
-    max-width: 40rem;
-    margin: auto;
-  }
-}
+@media screen and (max-width: )
 
 
 @media screen and (max-width: 320px){

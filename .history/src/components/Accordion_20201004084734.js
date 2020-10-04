@@ -21,13 +21,13 @@ function Accordion(props) {
 
   return (
     <div className="mini-cards">
-        <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
-            <h1 className="accordion-title">{props.title}</h1>
-            <Chevron className={`${setRotate}`} width={10} fill={"#777"} />
-        </button>
+      <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
+        <h1 className="accordion-title">{props.title}</h1>
+        <Chevron className={`${setRotate}`} width={10} fill={"#777"} />
+      </button>
         <div ref={content} style={{ maxHeight: `${setHeight}` }} className="accordion-content">
-            <div className="accordion-text" dangerouslySetInnerHTML={{ __html: props.content }}/>
-        </div>
+        <div className="accordion-text" dangerouslySetInnerHTML={{ __html: props.content }}/>
+      </div>
     </div>
   );
 }
